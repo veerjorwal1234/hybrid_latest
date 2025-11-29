@@ -15,14 +15,12 @@ services:
         generateValue: true
       - key: GEMINI_API_KEY
         sync: false # User needs to input this manually in dashboard
-    envVars:
       - fromGroup: hybrid-env-group
     autoDeploy: false
 
   # Frontend Service
   - type: static
     name: hybrid-frontend
-    runtime: node
     region: singapore
     plan: free
     rootDir: frontend
