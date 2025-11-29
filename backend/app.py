@@ -33,7 +33,10 @@ def create_app():
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     
     # Initialize extensions
-    CORS(app, resources={r"/*": {"origins": ["http://localhost:5173", "http://localhost:5174"]}}, supports_credentials=True)
+    frontend_url = os.getenv('FRONTEND_URL', 'http://localhost:5173')
+    # Allow both localhost and production frontend URL
+    origins = [frontend_url, "http://localhost:5173", "http://localhost:5174"]
+    CORS(app, resources={r"/*": {"origins": origins}}, supports_credentials=True)
     db.init_app(app)
     
     # Register Blueprints
