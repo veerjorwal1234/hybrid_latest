@@ -1,0 +1,3 @@
+from webauthn import generate_authentication_options
+import inspect
+print(inspect.signature(generate_authentication_options))

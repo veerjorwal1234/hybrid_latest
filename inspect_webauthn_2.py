@@ -1,0 +1,2 @@
+from webauthn.helpers.structs import RegistrationCredential
+print(RegistrationCredential.__annotations__)

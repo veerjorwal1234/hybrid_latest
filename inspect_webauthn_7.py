@@ -1,0 +1,2 @@
+from webauthn.helpers.structs import PublicKeyCredentialDescriptor
+print(PublicKeyCredentialDescriptor.__annotations__)

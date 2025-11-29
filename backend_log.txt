@@ -1,0 +1,85 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 232-107-312
+127.0.0.1 - - [24/Nov/2025 23:46:21] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:46:21] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:46:23] "OPTIONS /api/teacher/generate-qr HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:46:23] "POST /api/teacher/generate-qr HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:46:39] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:46:39] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:47:46] "OPTIONS /api/student/submit-attendance HTTP/1.1" 200 -
+
+=== GEOFENCE CHECK ===
+Polygon: [[18.77650087426464, 73.69443644062979], [18.757928884141037, 73.66731143492491], [18.74377631173372...
+Total samples received: 12
+Sample 1: ✅ INSIDE (18.76290708743412, 73.69892192046619) accuracy=35m
+Sample 2: ✅ INSIDE (18.76290708743412, 73.69892192046619) accuracy=35m
+Sample 3: ✅ INSIDE (18.76290708743412, 73.69892192046619) accuracy=35m
+Sample 4: ✅ INSIDE (18.76290708743412, 73.69892192046619) accuracy=35m
+Sample 5: ✅ INSIDE (18.76290708743412, 73.69892192046619) accuracy=35m
+Sample 6: ✅ INSIDE (18.76290708743412, 73.69892192046619) accuracy=35m
+Sample 7: ✅ INSIDE (18.76290708743412, 73.69892192046619) accuracy=35m
+Sample 8: ✅ INSIDE (18.76290708743412, 73.69892192046619) accuracy=35m
+Sample 9: ✅ INSIDE (18.76290708743412, 73.69892192046619) accuracy=35m
+Sample 10: ✅ INSIDE (18.76290708743412, 73.69892192046619) accuracy=35m
+Sample 11: ✅ INSIDE (18.76290708743412, 73.69892192046619) accuracy=35m
+Sample 12: REJECTED - Accuracy 229.40939331054688m > 100m
+
+RESULT: 11/11 samples inside polygon
+=== END GEOFENCE CHECK ===
+
+127.0.0.1 - - [24/Nov/2025 23:47:46] "POST /api/student/submit-attendance HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:56:04] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:56:04] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:56:35] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:56:35] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:59:05] "OPTIONS /api/student/submit-attendance HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:59:05] "[31m[1mPOST /api/student/submit-attendance HTTP/1.1[0m" 400 -
+127.0.0.1 - - [25/Nov/2025 00:01:20] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:01:20] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:06:28] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:06:29] "[31m[1mPOST /api/auth/login HTTP/1.1[0m" 401 -
+127.0.0.1 - - [25/Nov/2025 00:06:33] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:08:20] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:08:20] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:12:03] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:12:03] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:13:40] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:13:41] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:14:00] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:14:00] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:14:07] "OPTIONS /api/teacher/generate-qr HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:14:07] "POST /api/teacher/generate-qr HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:14:58] "OPTIONS /api/teacher/generate-qr HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:14:58] "POST /api/teacher/generate-qr HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:15:50] "OPTIONS /api/teacher/generate-qr HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:15:50] "POST /api/teacher/generate-qr HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:16:04] "OPTIONS /api/teacher/attendance/56f611ca-5f0f-4e96-a256-87e879ff6a1b HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:16:04] "OPTIONS /api/teacher/attendance/56f611ca-5f0f-4e96-a256-87e879ff6a1b HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:16:04] "GET /api/teacher/attendance/56f611ca-5f0f-4e96-a256-87e879ff6a1b HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:16:04] "GET /api/teacher/attendance/56f611ca-5f0f-4e96-a256-87e879ff6a1b HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:16:19] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:16:19] "POST /api/auth/login HTTP/1.1" 200 -
+ * Detected change in '/Users/satvikkesarwani/Downloads/HYBRID/backend/routes/student.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 232-107-312
+127.0.0.1 - - [25/Nov/2025 00:19:47] "OPTIONS /api/student/history HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:19:47] "OPTIONS /api/student/history HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:19:47] "GET /api/student/history HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:19:47] "GET /api/student/history HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:20:10] "OPTIONS /api/student/history HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:20:10] "OPTIONS /api/student/history HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:20:10] "GET /api/student/history HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:20:10] "GET /api/student/history HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:20:27] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:20:27] "POST /api/auth/login HTTP/1.1" 200 -
+ * Detected change in '/Users/satvikkesarwani/Downloads/HYBRID/backend/routes/teacher.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 232-107-312

@@ -1,0 +1,2 @@
+from webauthn.helpers.structs import PublicKeyCredentialType
+print(PublicKeyCredentialType.PUBLIC_KEY)

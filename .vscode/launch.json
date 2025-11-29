@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Backend",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/backend/app.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/backend"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Run Full Stack",
+            "configurations": [
+                "Launch Backend"
+            ],
+            "preLaunchTask": "Start Frontend"
+        }
+    ]
+}

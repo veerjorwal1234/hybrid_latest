@@ -1,0 +1,3 @@
+from webauthn.helpers.structs import AuthenticationCredential, AuthenticatorAssertionResponse
+print("AuthenticationCredential:", AuthenticationCredential.__annotations__)
+print("AuthenticatorAssertionResponse:", AuthenticatorAssertionResponse.__annotations__)

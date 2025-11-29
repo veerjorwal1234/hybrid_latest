@@ -1,0 +1,2 @@
+from webauthn.helpers.structs import AuthenticatorAttestationResponse
+print(AuthenticatorAttestationResponse.__annotations__)
